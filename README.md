@@ -11,7 +11,7 @@ MySQL
 codigo de MYSQL:
 CREATE DATABASE libreria;
 USE libreria;
-CREATE TABLE IF NOT EXISTS libro (
+CREATE TABLE libro (
     id_libro INT AUTO_INCREMENT PRIMARY KEY,
     titulo VARCHAR(100),
     autor VARCHAR(100),
